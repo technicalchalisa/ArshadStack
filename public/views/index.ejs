@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ArshadStack - Web Developer Portfolio</title>
-    <meta name="description" content="ArshadStack - Web Developer Portfolio. Passionate about creating amazing websites.">
-    <meta name="keywords" content="ArshadStack, Web Developer, Portfolio, Websites">
-    <meta name="author" content="ArshadStack">
+    <title>Dev_Arshad - Web Developer Portfolio</title>
+    <meta name="description" content="Dev_Arshadk - Web Developer Portfolio. Passionate about creating amazing websites.">
+    <meta name="keywords" content="Dev_Arshad, Web Developer, Portfolio, Websites">
+    <meta name="author" content="Dev_Arshad">
     <!-- Link Tailwind CSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="/styles/main.css" rel="stylesheet">
@@ -18,7 +18,7 @@
     <!-- Navbar -->
     <nav class="bg-gray-800 text-white p-4">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold">ArshadStack</a>
+            <a href="#" class="text-2xl font-bold">Dev_Arshad</a>
             <ul class="flex space-x-4">
                 <li><a href="#" class="hover:text-gray-300">Home</a></li>
                 <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
@@ -31,19 +31,19 @@
     <!-- Hero Section -->
     <section class="hero bg-gray-600 text-white py-12 md:py-20">
         <div class="container mx-auto text-center">
-            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Welcome to ArshadStack's Portfolio</h1>
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Welcome to Dev_Arshad's Portfolio</h1>
             <p class="text-sm md:text-lg">I'm a web developer passionate about creating amazing websites.</p>
             <a href="#contact" class="mt-4 inline-block px-4 md:px-6 py-2 md:py-3 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 ease-in-out">Contact Me</a>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="bg-white py-8 md:py-16">
+    <!-- <section id="projects" class="bg-white py-8 md:py-16">
         <div class="container mx-auto">
             <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6">Projects</h2>
-            <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-2"> -->
                 <!-- Project Cards -->
-                <div class="bg-gray-200 p-4 md:p-6 rounded-lg shadow-md">
+                <!-- <div class="bg-gray-200 p-4 md:p-6 rounded-lg shadow-md">
                     <h3 class="text-lg md:text-xl font-bold mb-2">Project 1</h3>
                     <p class="text-sm md:text-base">A brief description of the project goes here.</p>
                 </div>
@@ -58,11 +58,11 @@
                 <div class="bg-gray-200 p-4 md:p-6 rounded-lg shadow-md">
                     <h3 class="text-lg md:text-xl font-bold mb-2">Project 4</h3>
                     <p class="text-sm md:text-base">A brief description of the project goes here.</p>
-                </div>
+                </div> -->
                 <!-- Add more project cards as needed -->
-            </div>
+            <!-- </div>
         </div>
-    </section>
+    </section> -->
           
 
     <!-- About Section -->
@@ -70,7 +70,7 @@
         <div class="container mx-auto">
             <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6">About Me</h2>
             <div class="flex flex-col items-center md:flex-row md:justify-between">
-                <img src="/src/img/myimg.jpg" alt="Profile Image" class="rounded-full w-24 h-24 md:w-32 md:h-32 object-cover mb-4 md:mb-0">
+                <img src="https://drive.google.com/uc?id=1JTyabfsVD2Gi_GgTXx9NDRTWkwWhqzZz" alt="Profile Image" class="rounded-full w-24 h-24 md:w-32 md:h-32 object-cover mb-4 md:mb-0">
                 <p class="text-sm md:text-base md:max-w-md">Hello! I'm a passionate web developer dedicated to crafting exceptional digital experiences for users. With expertise in front-end and back-end technologies, I strive to create responsive, intuitive, and visually appealing websites. My goal is to make a positive impact by leveraging technology to solve real-world problems.</p>
                 <!-- Add more about content as needed -->
             </div>
@@ -83,9 +83,11 @@
             <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">Contact Me</h2>
             <p class="text-sm md:text-base">Feel free to reach out to me through the following channels:</p>
             <ul class="mt-4 flex justify-center space-x-4">
-                <li><a href="#" class="hover:text-gray-300">Email</a></li>
-                <li><a href="#" class="hover:text-gray-300">LinkedIn</a></li>
-                <li><a href="#" class="hover:text-gray-300">GitHub</a></li>
+                <li><a href="#" onclick="sendEmail()" class="hover:text-gray-300">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/arshad-alam-0b6a36272/" class="hover:text-gray-300">Facebook</a></li>
+              <li><a href="https://www.instagram.com/ar_shadalam/" class="hover:text-gray-300">Instagram</a></li>
+              	<li><a href="https://www.facebook.com/profile.php?id=100041845685831" class="hover:text-gray-300">LinkedIn</a></li>
+                <li><a href="https://github.com/technicalchalisa" class="hover:text-gray-300">GitHub</a></li>
                 <!-- Add more contact links as needed -->
             </ul>
         </div>
@@ -93,11 +95,16 @@
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white text-center py-4">
-        <p>&copy; 2023 ArshadStack</p>
+        <p>&copy; 2023 dev_arshad</p>
     </footer>
 
     <!-- Your JavaScript files can be included here if needed -->
-
+    <script>
+        function sendEmail() {
+            window.location.href = "mailto:workforarshad@gmail.com";
+        }
+        
+    </script>
 </body>
 
 </html>
